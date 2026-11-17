@@ -47,6 +47,7 @@ export type Database = {
           last_seen_at?: string | null;
           created_at?: string | null;
         };
+        Relationships: [],
       };
       user_keys: {
         Row: {
@@ -70,6 +71,7 @@ export type Database = {
           ecdsa_public_jwk?: Json;
           updated_at?: string | null;
         };
+        Relationships: [],
       };
       user_privacy_settings: {
         Row: {
@@ -111,6 +113,7 @@ export type Database = {
           blur_on_unfocus?: boolean;
           disable_link_previews?: boolean;
         };
+        Relationships: [],
       };
       contacts: {
         Row: {
@@ -128,6 +131,7 @@ export type Database = {
           contact_id?: string;
           created_at?: string | null;
         };
+        Relationships: [],
       };
       blocked_users: {
         Row: {
@@ -145,6 +149,7 @@ export type Database = {
           blocked_id?: string;
           created_at?: string | null;
         };
+        Relationships: [],
       };
       conversations: {
         Row: {
@@ -171,6 +176,7 @@ export type Database = {
           created_at?: string | null;
           updated_at?: string | null;
         };
+        Relationships: [],
       };
       conversation_members: {
         Row: {
@@ -200,6 +206,7 @@ export type Database = {
           muted_until?: string | null;
           joined_at?: string | null;
         };
+        Relationships: [],
       };
       messages: {
         Row: {
@@ -244,6 +251,7 @@ export type Database = {
           deleted_for_everyone?: boolean;
           created_at?: string | null;
         };
+        Relationships: [],
       };
       message_receipts: {
         Row: {
@@ -264,6 +272,7 @@ export type Database = {
           delivered_at?: string | null;
           read_at?: string | null;
         };
+        Relationships: [],
       };
     };
     Views: {
