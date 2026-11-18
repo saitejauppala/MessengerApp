@@ -1,0 +1,29 @@
+{
+  "name": "messengerapp-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Scheduled cleanup and zero-IP-leak link preview microservice for MessengerApp",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "express-rate-limit": "^7.4.0",
+    "helmet": "^8.0.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.5",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "~5.7.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
