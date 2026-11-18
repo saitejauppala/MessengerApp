@@ -157,6 +157,7 @@ export type Database = {
           type: string;
           name: string | null;
           created_by: string;
+          is_locked: boolean;
           created_at: string | null;
           updated_at: string | null;
         };
@@ -165,6 +166,7 @@ export type Database = {
           type?: string;
           name?: string | null;
           created_by: string;
+          is_locked?: boolean;
           created_at?: string | null;
           updated_at?: string | null;
         };
@@ -173,6 +175,7 @@ export type Database = {
           type?: string;
           name?: string | null;
           created_by?: string;
+          is_locked?: boolean;
           created_at?: string | null;
           updated_at?: string | null;
         };
